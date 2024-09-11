@@ -1,4 +1,4 @@
-package solidcitadel.timetable.domain.transport.direction;
+package solidcitadel.transitplanner.domain.transport.direction;
 
 import org.springframework.stereotype.Repository;
 import java.util.ArrayList;

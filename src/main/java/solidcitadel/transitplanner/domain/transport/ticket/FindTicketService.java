@@ -1,4 +1,4 @@
-package solidcitadel.timetable.domain.transport.ticket;
+package solidcitadel.transitplanner.domain.transport.ticket;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

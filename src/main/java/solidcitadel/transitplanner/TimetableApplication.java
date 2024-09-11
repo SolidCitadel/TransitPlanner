@@ -1,4 +1,4 @@
-package solidcitadel.timetable;
+package solidcitadel.transitplanner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

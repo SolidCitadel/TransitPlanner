@@ -1,12 +1,12 @@
-package solidcitadel.timetable.web.transport.stop;
+package solidcitadel.transitplanner.web.transport.stop;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import solidcitadel.timetable.domain.transport.stop.Stop;
-import solidcitadel.timetable.domain.transport.stop.StopRepository;
+import solidcitadel.transitplanner.domain.transport.stop.Stop;
+import solidcitadel.transitplanner.domain.transport.stop.StopRepository;
 
 import java.util.List;
 

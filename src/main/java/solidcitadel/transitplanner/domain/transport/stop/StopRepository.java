@@ -1,4 +1,4 @@
-package solidcitadel.timetable.domain.transport.stop;
+package solidcitadel.transitplanner.domain.transport.stop;
 
 import org.springframework.stereotype.Repository;
 

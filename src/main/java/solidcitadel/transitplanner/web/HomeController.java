@@ -1,4 +1,4 @@
-package solidcitadel.timetable.web;
+package solidcitadel.transitplanner.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

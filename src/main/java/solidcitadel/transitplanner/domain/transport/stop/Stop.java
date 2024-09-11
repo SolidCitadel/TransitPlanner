@@ -1,7 +1,7 @@
-package solidcitadel.timetable.domain.transport.stop;
+package solidcitadel.transitplanner.domain.transport.stop;
 
 import lombok.Data;
-import solidcitadel.timetable.domain.transport.Type;
+import solidcitadel.transitplanner.domain.transport.Type;
 
 @Data
 public class Stop {

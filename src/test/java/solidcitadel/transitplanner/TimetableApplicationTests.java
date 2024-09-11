@@ -1,4 +1,4 @@
-package solidcitadel.timetable;
+package solidcitadel.transitplanner;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

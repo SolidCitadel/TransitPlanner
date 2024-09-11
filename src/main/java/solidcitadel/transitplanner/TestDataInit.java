@@ -1,15 +1,15 @@
-package solidcitadel.timetable;
+package solidcitadel.transitplanner;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import solidcitadel.timetable.domain.transport.Time;
-import solidcitadel.timetable.domain.transport.Type;
-import solidcitadel.timetable.domain.transport.direction.Direction;
-import solidcitadel.timetable.domain.transport.direction.DirectionRepository;
-import solidcitadel.timetable.domain.transport.stop.Stop;
-import solidcitadel.timetable.domain.transport.stop.StopRepository;
+import solidcitadel.transitplanner.domain.transport.Time;
+import solidcitadel.transitplanner.domain.transport.Type;
+import solidcitadel.transitplanner.domain.transport.direction.Direction;
+import solidcitadel.transitplanner.domain.transport.direction.DirectionRepository;
+import solidcitadel.transitplanner.domain.transport.stop.Stop;
+import solidcitadel.transitplanner.domain.transport.stop.StopRepository;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -28,7 +28,7 @@ public class TestDataInit {
     private HashMap<String, ArrayList<Time>> readFile(){
         HashMap<String, ArrayList<Time>> departureTimeMap = new HashMap<>();
         try{
-            File file = new File("src/main/java/solidcitadel/timetable/TestData.txt");
+            File file = new File("src/main/java/solidcitadel/transitplanner/TestData.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             String head = "";
             while (true){
