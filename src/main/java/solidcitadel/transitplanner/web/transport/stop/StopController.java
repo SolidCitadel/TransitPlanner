@@ -20,7 +20,7 @@ public class StopController {
     public String stops(Model model){
         List<Stop> stops = stopRepository.findAll();
         model.addAttribute("stops", stops);
-        return "/stops/stops";
+        return "stops/stops";
     }
 }
 
