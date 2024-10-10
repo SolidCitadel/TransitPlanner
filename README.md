@@ -14,5 +14,7 @@
 
 ## 구조
 - Web Server: Spring Framwork
+  - TailwindCSS
+  - Thymeleaf
 - Docker: https://hub.docker.com/repository/docker/solidcitadel/transitplanner-webserver/general
 - DB: 현재 Sample Data로 개발중입니다.
