@@ -11,10 +11,7 @@ import solidcitadel.transitplanner.domain.transport.direction.DirectionRepositor
 import solidcitadel.transitplanner.domain.transport.stop.Stop;
 import solidcitadel.transitplanner.domain.transport.stop.StopRepository;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -28,8 +25,14 @@ public class TestDataInit {
     private HashMap<String, ArrayList<Time>> readFile(){
         HashMap<String, ArrayList<Time>> departureTimeMap = new HashMap<>();
         try{
-            File file = new File("src/main/java/solidcitadel/transitplanner/TestData.txt");
-            BufferedReader br = new BufferedReader(new FileReader(file));
+//            File file = new File("./SampleData.txt");
+//            BufferedReader br = new BufferedReader(new FileReader(file));
+
+            InputStream inputStream = getClass()
+                    .getClassLoader()
+                    .getResourceAsStream("SampleData.txt");
+            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+
             String head = "";
             while (true){
                 String line = br.readLine();
