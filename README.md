@@ -12,6 +12,9 @@
 
 이처럼 지도 앱의 예상시간과 추천 경로를 신뢰할 수 없기 때문에, 고속/시외버스 및 열차 시간표를 반영할 수 있는 경로 계산 서비스를 기획하게 되었습니다.
 
+## 사용
+- localhost:8080
+
 ## 구조
 - Web Server: Spring Framwork
   - TailwindCSS
